@@ -1,0 +1,30 @@
+.card{
+    display: flex;
+    align-items: center;
+    background : #2A2B34 ;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+.card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.info{
+    flex: 1;
+    margin-left: 15px;
+}
+.info h3{
+    font-size: 18px;
+    color:#B6B6B6;
+    margin-bottom: 5px  ;
+}
+.info p{
+    font-size: 14px;
+    color:#B6B6B6;
+}
+.arrow{
+    font-size: 24px;
+    color:white;
+}
