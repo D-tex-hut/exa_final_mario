@@ -1,14 +1,12 @@
 import Header from "../components/Header/Header";
 import ExerciseCard from "../components/ExerciseCard/ExerciseCard";
+import ExerciseList from "@/components/ExerciseList/ExerciseList";
 export default function Home() {
   return (
-    <main>
+    <main className = "container  ">
       <Header />
-      <ExerciseCard
-        name="Puxada frontal"
-        description=" 3 séries x 12 repetições"
-        image="/puxada-frontal.jpg"
-      />
+      <ExerciseList />
+      
       </main>
   );
 }
